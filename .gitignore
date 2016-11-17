@@ -1,0 +1,4 @@
+.idea
+assets/
+config/db.php
+_database/

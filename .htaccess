@@ -1,0 +1,15 @@
+RewriteEngine on
+
+# Deny accessing below extensions
+<Files ~ "(.lock|.git)">
+Order allow,deny
+Deny from all
+</Files>
+
+# Deny accessing dot files
+RewriteRule (^\.|/\.) - [F]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteRule . index.php

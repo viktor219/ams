@@ -1,0 +1,196 @@
+div.modal-body {
+    overflow-y: auto;
+    max-height: none;
+    padding: 10px;
+}
+.error{
+    color:red;
+}
+.grid-view .table-bordered{
+    display: table;
+    min-height: 0.01%;
+    overflow-x: auto;
+    width: 100%;
+}
+.stacktable { width: 100%; }
+.st-head-row { padding-top: 1em; }
+.st-head-row.st-head-row-main { font-size: 1.5em; padding-top: 0; }
+.st-key { width: 15%; text-align: right; padding-right: 1%; }
+.st-val { width: 85%; padding-left: 1%; text-align: left; }
+.hide-desktop{
+    display: none;
+}
+
+
+/* RESPONSIVE EXAMPLE */
+
+.stacktable.large-only { display: table; }
+.stacktable.small-only { display: none; }
+@media (max-width: 800px) {
+    .stacktable.large-only { display: none; }
+    .stacktable.small-only { display: table; }
+    .navigate-buttons{
+        position: absolute;
+        bottom: 50px;
+        right: 0;
+        width: auto;
+    }
+    .hide-mobile{
+        display: none !important;
+    }
+    .hide-desktop{
+        display: block;
+    }
+    #myTab span.drop-toggle{
+        display: block;
+    }
+    .mobile-menu li a{
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+    .filter-name{
+        margin-right: 10px;
+    }
+    .filter-name a{
+        color: #fff;
+    }
+    #myTab li.active a{
+        background: #1ABB9C !important;
+        color: white;        
+        border-bottom: 5px solid #ccc;
+    }
+    .mobile-menu li.active{
+        border-right: none;
+        float: none !important;
+    }
+    ul.bar_tabs.right li{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+    ul.bar_tabs.right li a{
+        padding: 10px;
+        border-radius: 0;
+        background: #fff !important;
+        color: black;
+    }
+    #myTab{
+        height: inherit;
+        margin: 0;
+        padding: 0 !important;
+        border: none;
+    }
+    #myTab span{
+        //display: block;
+    }
+    ul.bar_tabs > li.active{
+        border-right: 0 !important;
+    }
+    #inventory-panel .action-buttons{
+        padding: 10px 0 !important;
+    }
+    #inventory-panel .action-buttons a{
+        padding: 8px;
+    }
+    #order-search-gridview li{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .x_content{
+        margin: 0;
+    }
+    #order-search-gridview li.active a,
+    #inventory-search-gridview li.active a,
+    #user-search-gridview li.active a,
+    #customer-search-gridview li.active a{
+        background: #fff !important;
+        text-align: center !important;
+        color: black;
+    }
+    #ordersearch li.active a,
+    #inventory-loaded-content-search .pagination.small-only li.active a,
+    #user-search-gridview .pagination.small-only li.active a,
+    #customer-search-gridview .pagination.small-only li.active a{
+        background: #1A82C3 !important;
+        color: white !important;
+    }    
+    #purchasingDetails .modal-dialog{
+        width: 90% !important;
+    }
+    .inprogress-index .st-key{
+        width: 30% !important;
+    }
+    ul.dropdown-menu li a{
+        margin: 0;
+        border: none;
+        text-align: left;
+    }
+    .mobile-menu li input{
+        margin: auto;
+        width: 95%;
+    }
+    #shipping-content-data .st-key, #readyship-content-data .st-key{
+        width: 35% !important;
+    }
+    .inventory-head h4{
+        margin-bottom: 65px;
+    }
+    #inventory-loaded-content-search table{
+        display: block !important;
+    }
+    #inventory-page-responsive .panel-body{
+        padding: 0;
+    }
+    #inventory-page-responsive .panel-body>.row{
+        margin: 5px 0;
+    }
+    .rmaform-actions{
+        text-align: center !important;
+        margin-bottom: 15px;
+    }
+    .rmaform-actions #resetFormButton{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .location-index .row{
+        margin: 0;
+        padding: 5px;
+    }
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+h4{
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+table caption {
+    padding: .5em 0;
+}
+
+.p {
+    text-align: center;
+    padding-top: 140px;
+    font-size: 14px;
+}
+.action-buttons{
+    word-break: break-all;
+    text-align: center !important;
+}
+th.st-head-row{
+    width: 100%;
+}
+.stacktable th, .stacktable td{
+    padding: 5px !important;
+    vertical-align: middle !important;
+}
+#searchcustomer-group .input-group{
+    margin-bottom: 10px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

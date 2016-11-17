@@ -1,0 +1,30 @@
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background: none;
+    border: none;
+}
+.nav-tabs .dropdown-menu {
+	margin-top: 6px;
+}
+ul.dropdown-menu {
+	box-shadow: none;
+	left: -45px;
+}
+ul.dropdown-menu li.list a,  
+ul.dropdown-menu li.list a:hover {
+    background: none;
+    border: none;
+}
+ul.bar_tabs.right li li {
+	float: none;
+}
+ul.dropdown-menu li a {
+	text-align: center;
+}
+ul.dropdown-menu li.list:hover {
+	background: #26B99A;
+	font-weight: bold;
+}
+ul.dropdown-menu li.list:hover a{
+	color: white;
+	font-weight: bold;
+}

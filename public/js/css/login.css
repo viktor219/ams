@@ -1,0 +1,201 @@
+ .alert{padding:15px;margin-bottom:20px;border:1px solid transparent;border-radius:4px}
+ .alert h4{margin-top:0;color:inherit}.alert .alert-link{font-weight:bold}
+ .alert>p,.alert>ul{margin-bottom:0}.alert>p+p{margin-top:5px}
+ .alert-dismissable,.alert-dismissible{padding-right:35px}
+ .alert-dismissable .close,.alert-dismissible 
+ .close{position:relative;top:-2px;right:-21px;color:inherit}
+ .alert-success{background-color:#dff0d8;border-color:#d6e9c6;color:#3c763d}
+ .alert-success hr{border-top-color:#c9e2b3}.alert-success 
+ .alert-link{color:#2b542c}
+ .alert-info{background-color:#d9edf7;border-color:#bce8f1;color:#31708f}
+ .alert-info hr{border-top-color:#a6e1ec}
+ .alert-info .alert-link{color:#245269}
+ .alert-warning{background-color:#fcf8e3;border-color:#faebcc;color:#8a6d3b}
+ .alert-warning hr{border-top-color:#f7e1b5}
+ .alert-warning .alert-link{color:#66512c}
+ .alert-danger{background-color:#f2dede;border-color:#ebccd1;color:#a94442}
+ .alert-danger hr{border-top-color:#e4b9c0}
+ .alert-danger .alert-link{color:#843534}
+ 
+/*
+Author: Daniel Henriquez
+Twitter: @dhenriquez
+website: http://www.dhenriquez.cl
+*/
+html{font-family:'Noto Serif', serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+
+.help-block-error{color : red;}
+
+.login {
+    width: 500px;
+    height: 490px;
+    overflow: hidden;
+    background: #1e1e1e;
+    border-radius: 6px;
+	border-bottom : 12px solid #2A3F54;
+    margin: 50px auto;
+    box-shadow: 0px 0px 50px rgba(0,0,0,.8);
+	font-size : 12px;
+	font-family: 'Noto Serif', serif;
+}
+
+.login .titulo {
+    width: 500px;
+    height: 14px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 18px;
+    text-align: center;
+    color: #bfbfbf;
+    font-weight: bold;
+    background: #2A3F54;
+    border: #2d2d2d solid 1px;
+    margin-bottom: 30px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-family: 'Noto Serif', serif;
+}
+.login .titulo-bottom {
+    width: 500px;
+    height: 23px;
+    padding: 8px;
+    font-size: 22px;
+    text-align: center;
+    color: #bfbfbf;
+    font-weight: bold;
+    background: #2A3F54;
+    margin-bottom: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+.login form {
+    width: 240px;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login form input[type=text], .login form input[type=password] {
+    width: 200px;
+    font-size: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    border: none;
+    color: #bfbfbf;
+    background: #141414;
+    outline: none;
+    margin: 0;
+}
+
+.login form input[type=text] {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top: #0b0b0b solid 1px;
+    background: #141414 url(http://dev.dhenriquez.com/test-img/icons/111-user.png) 10px center no-repeat;
+}
+
+.login form input[type=password] {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: #0b0b0b 1px solid;
+    border-bottom: #353535 1px solid;
+    background: #141414 url(http://dev.dhenriquez.com/test-img/icons/54-lock.png) 10px center no-repeat;
+}
+
+.login form .enviar {
+    width: 240px;
+    display: block;
+    padding: 15px;
+    border-radius: 6px;
+	cursor : pointer;
+    border: none;
+    border-top: #4eb2a8 1px solid;
+    border-bottom: #161616 1px solid;
+    background: #349e92;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: 0 -1px #1d7464, 0 1px #7bb8b3;
+    font-family: 'Noto Serif', serif;
+}
+
+.login .olvido {
+    width: 240px;
+    height: auto;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.login .olvido .col {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.login .olvido .col a {
+    color: #fff;
+    text-decoration: none;
+    font: 12px Arial;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+
+body { line-height: 1 }
+
+ol, ul { list-style: none }
+
+blockquote, q { quotes: none }
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.btn-in 
+{
+   box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+   padding: 8px;
+}
+
+.btn 
+{
+   width: 200px;
+   padding: 15px;
+   line-height: 1.5em;
+   color: #444444;
+box-shadow: -1px 2px 5px 1px #5bc0de,
+            -1px 2px 20px #5bc0de inset; 
+}
+
+.row-margin-bottom
+{
+	margin-bottom : 8px;
+}
